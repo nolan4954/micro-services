@@ -9,6 +9,7 @@ snapshot 快照版本（开发版本）
 4. 如果调用失败，就会有雪崩效应,线程阻塞.如果依赖的项目down掉了，会不会挂掉。（1. 超时机制；2.断路器,有忍耐度的，返回默认值，空值)
 5. 社区活跃度；STOMP, AMQP协议
 
+@EnableDiscoveryClient (instead of the old @EnableEurekaClient). 
 
 问题1 Ribbon使用时 There was an unexpected error (type=Internal Server Error, status=500).
 No instances available for EUREKA-CLIENT-TEST1
