@@ -6,3 +6,4 @@
 6. glance 一瞥
 7. announce 宣布
 8. propagate 传播
+9. cascade 级联

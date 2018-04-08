@@ -1,0 +1,3 @@
+1. Zuul is a JVM-based router and server-side load balancer from Netflix.
+2. Some of the API Gateways (Zuul 1, Ngnix) are blocking, and others (Zuul 2, Linkerd, Envoy) are non-blocking. Blocking architectures are good for simple development and tracing the requests, but blocking nature can cause scalability problems. Non-blocking architectures are more complex in terms of development and traceability but they are better in terms of scalability and resiliency. 
+3. The proxy uses Ribbon to locate an instance to which to forward through discovery
