@@ -7,3 +7,5 @@
 7. announce 宣布
 8. propagate 传播
 9. cascade 级联
+10. downstream 下游
+11. strangle 扼杀
