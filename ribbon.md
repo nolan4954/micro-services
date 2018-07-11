@@ -5,3 +5,6 @@ RestTemplate+Ribbon去消费服务
 
 to include ribbon:
 `spring-cloud-starter-netflix-ribbon`
+
+
+
